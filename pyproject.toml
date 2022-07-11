@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "py_sqltoy"
+version = "0.1.0"
+description = ""
+authors = ["Roger Hughes <roger@roghu.com>"]
+license = "MIT"
+readme = "README.rst"
+repository = "https://github.com/asecretidolacct/py_sqltoy"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+black = "^22.6.0"
+pytest-sugar = "^0.9.5"
+pytest-random = "^0.02"
+pytest-cov = "^3.0.0"
+flake8 = "^4.0.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
